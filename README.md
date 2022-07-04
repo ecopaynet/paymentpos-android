@@ -14,7 +14,6 @@ PaymentPOS uses kotlin internally so the following dependencies are required to 
  - org.jetbrains.kotlinx:kotlinx-coroutines-core (implementation)
  - io.ktor:ktor-client-android (implementation)
  - io.ktor:ktor-client-serialization (implementation)
- - com.github.felHR85:UsbSerial (implementation, optional if not using serial port communications)
 
 ## Installation
 PaymentPOS comes in an Android Java Library (AAR) format. We recommend the use of the Android Studio IDE.
