@@ -10,10 +10,13 @@ PaymentPOS communicates with TCP, Bluetooth and Serial Port payment devices serv
  
 ## Dependencies
 PaymentPOS uses kotlin internally so the following dependencies are required to work:
+ - org.jetbrains.kotlinx:kotlinx-coroutines-android (implementation)
  - org.jetbrains.kotlinx:kotlinx-datetime (implementation)
- - org.jetbrains.kotlinx:kotlinx-coroutines-core (implementation)
+ - org.jetbrains.kotlinx:kotlinx-serialization-json (implementation)
+ - androidx.constraintlayout:constraintlayout (implementation)
  - io.ktor:ktor-client-android (implementation)
- - io.ktor:ktor-client-serialization (implementation)
+ - io.ktor:ktor-client-content-negotiation (implementation)
+ - io.ktor:ktor-serialization-kotlinx-json (implementation)
 
 ## Installation
 PaymentPOS comes in an Android Java Library (AAR) format. We recommend the use of the Android Studio IDE.
